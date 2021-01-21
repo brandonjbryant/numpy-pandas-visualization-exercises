@@ -121,7 +121,9 @@ max_of_b
 
 
 # Exercise 4 - refactor the following using numpy to find the mean of b
-mean_of_b = (sum(b[0]) + sum(b[1])) / (len(b[0]) + len(b[1]))
+mean_of_b = b.mean()
+
+mean_of_b 
 
 # Exercise 5 - refactor the following to use numpy for calculating the product of all numbers multiplied together.
 product_of_b = 1
