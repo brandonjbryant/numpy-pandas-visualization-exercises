@@ -145,13 +145,13 @@ odds_in_b
 
 
 # Exercise 8 - refactor the following to use numpy to filter only the even numbers
-evens_in_b = []
-for row in b:
-    for number in row:
-        if(number % 2 == 0):
-            evens_in_b.append(number)
+evens_in_b = b[b % 2 == 0]
+
+evens_in_b
 
 # Exercise 9 - print out the shape of the array b.
+
+print(b.shape)
 
 # Exercise 10 - transpose the array b.
 
