@@ -34,3 +34,10 @@ a_centered = a - a.mean()
 
 a_centered
 
+
+#7.Calculate the z-score for each data point
+
+a_z_score = a_centered / a.std()
+
+a_z_score
+
