@@ -132,10 +132,9 @@ product_of_b
 
 
 # Exercise 6 - refactor the following to use numpy to find the list of squares 
-squares_of_b = []
-for row in b:
-    for number in row:
-        squares_of_b.append(number**2)
+squares_of_b = b ** 2
+
+squares_of_b
 
 
 # Exercise 7 - refactor using numpy to determine the odds_in_b
@@ -154,6 +153,8 @@ evens_in_b
 print(b.shape)
 
 # Exercise 10 - transpose the array b.
+b.T
+b.T.shape
 
 # Exercise 11 - reshape the array b to be a single list of 6 numbers. (1 x 6)
 
