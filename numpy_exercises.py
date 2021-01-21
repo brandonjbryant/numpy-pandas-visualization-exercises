@@ -104,9 +104,10 @@ b = [
 ]
 
 # Exercise 1 - refactor the following to use numpy. Use sum_of_b as the variable. **Hint, you'll first need to make sure that the "b" variable is a numpy array**
-sum_of_b = 0
-for row in b:
-    sum_of_b += sum(row)
+b = np.array(b)
+sum_of_b = b.sum()
+
+sum_of_b
 
 # Exercise 2 - refactor the following to use numpy. 
 min_of_b = min(b[0]) if min(b[0]) <= min(b[1]) else min(b[1])  
