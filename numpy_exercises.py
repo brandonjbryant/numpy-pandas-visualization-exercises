@@ -126,12 +126,8 @@ mean_of_b = b.mean()
 mean_of_b 
 
 # Exercise 5 - refactor the following to use numpy for calculating the product of all numbers multiplied together.
+product_of_b = b.prod()
 
-
-product_of_b = 1
-
-for n in b:
-    product_of_b *= n
 product_of_b
 
 
@@ -143,11 +139,9 @@ for row in b:
 
 
 # Exercise 7 - refactor using numpy to determine the odds_in_b
-odds_in_b = []
-for row in b:
-    for number in row:
-        if(number % 2 != 0):
-            odds_in_b.append(number)
+odds_in_b = b[b % 2 == 1]
+
+odds_in_b
 
 
 # Exercise 8 - refactor the following to use numpy to filter only the even numbers
