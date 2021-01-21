@@ -160,7 +160,8 @@ b.T.shape
 b.flatten()
 
 
-# Exercise 12 - reshape the array b to be a list of 6 lists, each containing only 1 number (6 x 1)
+# Exercise 12 - reshape the array b to be a list of 6 lists, each containing only 1 number (6 x 1) 
+b.reshape(1, -1)
 
 ## Setup 3
 c = [
@@ -168,6 +169,8 @@ c = [
     [4, 5, 6],
     [7, 8, 9]
 ]
+
+c = np.array(c)
 
 # HINT, you'll first need to make sure that the "c" variable is a numpy array prior to using numpy array methods.
 # Exercise 1 - Find the min, max, sum, and product of c.
