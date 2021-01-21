@@ -27,3 +27,10 @@ a_squared_mean
 a_std = a_squared.std()
 
 a_std
+
+
+#6.Centering- Subtracting the mean from each data point. Center the data set.
+a_centered = a - a.mean()
+
+a_centered
+
