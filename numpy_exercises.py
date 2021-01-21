@@ -88,6 +88,9 @@ squares_of_a = [n ** 2 for n in a]
 
 # Exercise 7 - Make a variable named odds_in_a. It should hold only the odd numbers
 
+odds_in_a = [n for n in a if n % 2 == 1]
+
+odds_in_a 
 # Exercise 8 - Make a variable named evens_in_a. It should hold only the evens.
 
 ## What about life in two dimensions? A list of lists is matrix, a table, a spreadsheet, a chessboard...
