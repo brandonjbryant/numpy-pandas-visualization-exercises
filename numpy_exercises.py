@@ -126,10 +126,14 @@ mean_of_b = b.mean()
 mean_of_b 
 
 # Exercise 5 - refactor the following to use numpy for calculating the product of all numbers multiplied together.
+
+
 product_of_b = 1
-for row in b:
-    for number in row:
-        product_of_b *= number
+
+for n in b:
+    product_of_b *= n
+product_of_b
+
 
 # Exercise 6 - refactor the following to use numpy to find the list of squares 
 squares_of_b = []
