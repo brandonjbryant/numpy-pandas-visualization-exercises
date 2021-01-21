@@ -110,10 +110,14 @@ sum_of_b = b.sum()
 sum_of_b
 
 # Exercise 2 - refactor the following to use numpy. 
-min_of_b = min(b[0]) if min(b[0]) <= min(b[1]) else min(b[1])  
+min_of_b = b.min()
+
+min_of_b
 
 # Exercise 3 - refactor the following maximum calculation to find the answer with numpy.
-max_of_b = max(b[0]) if max(b[0]) >= max(b[1]) else max(b[1])
+max_of_b = b.max()
+
+max_of_b
 
 
 # Exercise 4 - refactor the following using numpy to find the mean of b
