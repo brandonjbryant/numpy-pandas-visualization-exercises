@@ -55,10 +55,20 @@ a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # Use python's built in functionality/operators to determine the following:
 # Exercise 1 - Make a variable called sum_of_a to hold the sum of all the numbers in above list
+sum_of_a = sum(a)
 
+sum_of_a 
 # Exercise 2 - Make a variable named min_of_a to hold the minimum of all the numbers in the above list
 
+min_of_a = min(a)
+
+min_of_a 
+
 # Exercise 3 - Make a variable named max_of_a to hold the max number of all the numbers in the above list
+max_of_a = max(a)
+
+max_of_a
+
 
 # Exercise 4 - Make a variable named mean_of_a to hold the average of all the numbers in the above list
 
