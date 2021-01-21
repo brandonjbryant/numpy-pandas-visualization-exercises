@@ -71,10 +71,20 @@ max_of_a
 
 
 # Exercise 4 - Make a variable named mean_of_a to hold the average of all the numbers in the above list
+mean_of_a = sum(a) / len(a)
+
+mean_of_a
 
 # Exercise 5 - Make a variable named product_of_a to hold the product of multiplying all the numbers in the above list together
+product_of_a = 1
+
+for n in a:
+    product_of_a *= n
+product_of_a
 
 # Exercise 6 - Make a variable named squares_of_a. It should hold each number in a squared like [1, 4, 9, 16, 25...]
+
+squares_of_a = [n ** 2 for n in a]
 
 # Exercise 7 - Make a variable named odds_in_a. It should hold only the odd numbers
 
