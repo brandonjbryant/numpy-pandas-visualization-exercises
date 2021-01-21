@@ -93,6 +93,9 @@ odds_in_a = [n for n in a if n % 2 == 1]
 odds_in_a 
 # Exercise 8 - Make a variable named evens_in_a. It should hold only the evens.
 
+evens_in_a = [n for n in a if n % 2 == 0]
+
+evens_in_a 
 ## What about life in two dimensions? A list of lists is matrix, a table, a spreadsheet, a chessboard...
 ## Setup 2: Consider what it would take to find the sum, min, max, average, sum, product, and list of squares for this list of two lists.
 b = [
