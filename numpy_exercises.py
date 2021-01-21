@@ -157,6 +157,8 @@ b.T
 b.T.shape
 
 # Exercise 11 - reshape the array b to be a single list of 6 numbers. (1 x 6)
+b.flatten()
+
 
 # Exercise 12 - reshape the array b to be a list of 6 lists, each containing only 1 number (6 x 1)
 
