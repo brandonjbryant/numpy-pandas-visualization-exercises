@@ -15,3 +15,15 @@ a_plus_three = a + 3
 a_plus_three 
 
 len(a_plus_three)
+
+
+#5.If you squared each number, what would the new mean and standard deviation be?
+a_squared = a**2
+a_squared_mean = a_squared.mean()
+
+
+a_squared_mean
+
+a_std = a_squared.std()
+
+a_std
