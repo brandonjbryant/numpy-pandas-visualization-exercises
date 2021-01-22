@@ -161,7 +161,9 @@ b.flatten()
 
 
 # Exercise 12 - reshape the array b to be a list of 6 lists, each containing only 1 number (6 x 1) 
-b.reshape(1, -1)
+b.reshape(6,1)
+print(b.reshape)
+
 
 ## Setup 3
 c = [
